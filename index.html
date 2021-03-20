@@ -54,6 +54,37 @@
 
 
 </header>
+  <style>footer {
+  background-color: #78c1cd;
+  text-align: center;
+  padding: 26px 0;
+  text-decoration: none;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: serif;
+}
+.wrapper2 {
+  background-color: #78c1cd;
+}
+
+
+.innerbox {
+  margin-top: 5px;
+  background-color: #78c1cd;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+}
+
+.footerlogo{
+  margin-top: 5px;
+}
+</style>
 
 
 
@@ -65,6 +96,18 @@
     });
 
   </script>
+
+
+
+<script src="jquery-3.6.0.min.js"></script>
+  <script>
+    $('#hamburger').on('click', function(){
+    $('.icon').toggleClass('close');
+    $('.sm').slideToggle();
+    });
+
+  </script>
+  </style>
 
 <img src="aboutwasedasai.PNG" class="pic">
 
