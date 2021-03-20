@@ -16,7 +16,9 @@
 p{
   margin-top: 50px;
 }
-
+.title{
+  font-size: 32px;
+}
 
 @charset "UTF-8";
 * {
@@ -29,8 +31,8 @@ body {
 
 }
 
-
 /*header*/
+
 header {
   height: 60px;
   width: 100%;
@@ -40,6 +42,7 @@ header {
   top: 0;
   z-index: 10;
   display: flex;
+font-family:serif;
 }
 
 
@@ -56,7 +59,7 @@ header {
   .hedlogo{
 height:55px;
 width:55px;
-margin-left:6px;
+margin-left:12px;
   }
   
 
@@ -75,6 +78,7 @@ margin-left:6px;
   list-style: none;
   padding: 0;
   margin: 0;
+margin-right:15px
 }
 
 .listwords {
@@ -88,14 +92,19 @@ margin-left:6px;
 .sm {
   display: none;
 }
+.toppagelogo{
+  height:500px;
+  width:500px:
+  padding:400px;
+margin:0 auto;
+}
+/*---------------------------------------------------------------*/
 @media (max-width: 900px) {
 
   .pc {
     display: none;
   }
-.text{
-  font-size: 15px;
-}
+
   #hamburger {
     background-color: transparent;
     position:relative;
@@ -165,35 +174,6 @@ margin-left:6px;
   list-style: none;
   margin: 0;
   padding: 0;
-}}
+}
+
 @charset "UTF-8";
-footer {
-    background-color: #78c1cd;
-    text-align: center;
-    padding: 26px 0;
-    text-decoration: none;
-}
-
-footer p {
-    color: #ffffff;
-    font-size: 20px;
-    font-family: serif;
-}
-.wrapper2 {
-    background-color: #78c1cd;
-}
-
-
-.innerbox {
-    margin-top: 5px;
-    background-color: #78c1cd;
-    text-align: center;
-    width: 450px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
-}
-
-.footerlogo{
-    margin-top: 5px;
-}
